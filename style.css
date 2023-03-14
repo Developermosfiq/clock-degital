@@ -1,0 +1,30 @@
+
+body
+{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(3, 3, 3);
+    height: 100vh;
+}
+.container
+{
+    position: absolute;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    color: #fff;
+    font-size: 70px;
+}
+
+@media screen and (min-width:370px) and (max-width:570px){
+    
+    .container{
+        margin: auto;
+        text-align: center;
+        height: 100%;
+        width: 100%;
+        padding: 10px;
+    }
+}
